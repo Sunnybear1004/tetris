@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테트리스 게임</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            background-color: #f0f0f0;
+        }
+        #score {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        #game-over {
+            display: none;
+            color: red;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="board" width="300" height="600"></canvas>
+    <div id="score">점수: 0</div>
+    <div id="game-over">게임 오버!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
